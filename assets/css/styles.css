@@ -160,7 +160,7 @@ header{
 }
 
 .slide-container:nth-child(1) .slide{
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('/assets/img/pexels-burak-the-weekender-45072.jpg');
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('/Landing-Page-Concurso/assets/img/pexels-burak-the-weekender-45072.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -169,7 +169,7 @@ header{
 }
 
 .slide-container:nth-child(2) .slide{
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('/assets/img/pexels-cottonbro-6153739.jpg');
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('/Landing-Page-Concurso/assets/img/pexels-cottonbro-6153739.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -178,7 +178,7 @@ header{
 }
 
 .slide-container:nth-child(3) .slide{
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('/assets/img/pexels-dani-muchow-2955704.jpg');
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('/Landing-Page-Concurso/assets/img/pexels-dani-muchow-2955704.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
