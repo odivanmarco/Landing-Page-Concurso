@@ -299,9 +299,10 @@ header{
 
 #servicos h1{
     color: var(--text-orange);
-    font-size: 3em;
+    font-size: 2.5em;
     font-weight: 200;
-    padding: 1em;
+    padding: 0.5em 0.5em;
+    text-align: center;
 }
 
 .servico{
@@ -358,6 +359,7 @@ header{
     font-size: 3em;
     font-weight: 200;
     color: var(--text-orange);
+    padding: 1em;
 }
 
 #integrantes{
@@ -366,7 +368,7 @@ header{
     flex-direction: row;
     padding-top: 2em;
     justify-content: space-around;
-    height: 500px;
+    height: 600px;
 }
 
 .cards{
@@ -412,34 +414,61 @@ header{
 }
 
 #pedro{
+    top: 13%;
     left: 13%;
     z-index: 2;
 }
 
+#pedro img{
+    position: absolute;
+    top: -22%;
+    right: 10%;
+    border: 10px solid var(--primary);
+    border-radius: 50%;
+}
+
 #marcos{
+    top: 13%;
     right: 13%;
     z-index: 2;
 }
 
+#marcos img{
+    position: absolute;
+    top: -22%;
+    right: 10%;
+    border: 10px solid var(--primary);
+    border-radius: 50%;
+}
+
 #odivan{
-    top: 13%;
+    top: 20%;
     z-index: 2;
 }
 
+#odivan img{
+    position: absolute;
+    top: -22%;
+    right: 10%;
+    border: 10px solid var(--primary);
+    border-radius: 50%;
+}
+
 #borda-1{
-    bottom: 10.5%;
+    top: 16%;
+    /* bottom: 10.5%; */
     left: 14.5%;
     z-index: 1;
 }
 
 #borda-2{
-    top: 16%;
+    top: 23%;
     left: 41.5%;
     z-index: 1;
 }
 
 #borda-3{
-    bottom: 10.5%;
+    top: 16%;
     right: 11.5%;
     z-index: 1;
 }
@@ -533,7 +562,6 @@ header{
         flex-direction: column;
         width: 100%;
         padding: 2em 2em;
-        height: 280px;
         align-items: center;
     }
 
@@ -601,11 +629,28 @@ header{
 
     .cards.cards.integrante{
         position: static;
+        padding-top: 10em;
     }
 
     .cards.borda{
         position: absolute;
     } 
+
+    #pedro img{
+        position: absolute;
+        top: 2%;
+        right: 20%;
+    }
+
+    #odivan img{
+        top: 67%;
+        right: 20%;
+    }
+
+    #marcos img{
+        top: 35%;
+        right: 20%;
+    }
 
     #borda-1{
         top: 5.5%;
@@ -620,7 +665,7 @@ header{
     }
     
     #borda-3{
-        bottom: 1%;
+        top: 71%;
         right: 11.5%;
         z-index: 1;
     }
