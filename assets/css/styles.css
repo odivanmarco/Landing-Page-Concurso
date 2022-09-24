@@ -243,6 +243,7 @@ header{
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    gap: 35px;
 }
 
 .servico{
@@ -252,7 +253,7 @@ header{
     align-items: center;
     margin: 20px;
     height: 380px;
-    width: 250px;
+    width: 300px;
     text-align: center;
 }
 
@@ -386,18 +387,34 @@ header{
 
 #contato{
     background-color: var(--primary);
+}
+
+#titulo-contato{
+    color: var(--text-white);
+    font-size: 1.5em;
+    font-weight: 100;
+    text-align: center;
+    padding: 20px 50px;
+}
+
+#container-contato{
     padding: 1em;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
     align-items: center;
 }
 
-#contato h1{
+#container-contato h1{
     color: var(--text-white);
     font-size: 28pt;
     font-weight: bold;
     padding: 0.5em 0;
+}
+
+#entre-em-contato img{
+    width: 25em;
 }
 
 #form-contato{
@@ -425,6 +442,23 @@ header{
     border: none;
     border-radius: 5px;
     height: 40px;
+}
+
+#btn-contato{
+    background-color: #FFA133;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: var(--text-white);
+    font-size: 14pt;
+    font-weight: bold;
+    align-self: center;
+}
+
+#btn-contato:hover{
+    opacity: 0.6;
 }
 
 @media screen and (max-width: 720px) {
@@ -476,21 +510,21 @@ header{
     }
 
     /* Contato */
-        /* Contato */
-        #contato{
-            padding: 1em;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;
-        }
-    
-        #form-contato{
-            width: 90%;
-        }
-    
-        #form-contato h1{
-            text-align: center;
-        }
+
+    #contato{
+        padding: 1em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    #form-contato{
+        width: 90%;
+    }
+
+    #form-contato h1{
+        text-align: center;
+    }
 
 }
 
@@ -540,5 +574,16 @@ header{
     }
 
     /* Equipe */
+
+    /* Contato */
+    #entre-em-contato img{
+        display: none;
+    }
+
+    #titulo-contato{
+        font-size: 1.2em;
+        padding: 10px;
+    }
+    
 }
 
