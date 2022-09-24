@@ -6,7 +6,7 @@
 :root {
     --primary: #262626;
     --secondary: #FFA133;
-    --text-color: #1d1b1b;
+    --text-color: #1b1b1b;
     --text-white: #f9f9f9;
 }
 
@@ -91,7 +91,7 @@ header{
 }
 
 .slide{
-    min-height: 75vh;
+    min-height: 85vh;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -118,10 +118,11 @@ header{
     animation: slideContent 0.8s linear 0.8s backwards;
 }
 
-.contentproje p{
-    font-size: 1em;
+.contentproje h2{
+    font-size: 1.5em;
+    font-weight: 300;
     color: var(--text-white);
-    width: 40%;
+    width: 70%;
     height: 10%;
     animation: slideContent 0.6s linear 0.6s backwards;
 }
@@ -161,7 +162,7 @@ header{
 }
 
 .slide-container:nth-child(2) .slide{
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('/Landing-Page-Concurso/assets/img/pexels-cottonbro-6153739.jpg');
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('/Landing-Page-Concurso/assets/img/close-up-image-of-programer-working-at-his-desk-in-office.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -170,7 +171,7 @@ header{
 }
 
 .slide-container:nth-child(3) .slide{
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('/Landing-Page-Concurso/assets/img/pexels-dani-muchow-2955704.jpg');
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('/Landing-Page-Concurso/assets/img/pexels-magnus-mueller-2818118.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -216,7 +217,6 @@ header{
     background-color: var(--primary);
     color: var(--text-white);
     font-weight: 300;
-    padding: 10px 60px 60px 60px;
 }
 
 #servicos h1{
@@ -227,12 +227,22 @@ header{
     text-align: center;
 }
 
-#container-servicos{
+.titulo-servicos{
+    color: var(--secondary);
+    font-weight: 100;
+    font-size: 2em;
+    text-align: center;
+    padding: 60px 0 0 0;
+}
+
+.container-servicos{
     width: 100%;
+    min-height: 90vh;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
 }
 
 .servico{
@@ -241,6 +251,7 @@ header{
     justify-content: start;
     align-items: center;
     margin: 20px;
+    height: 380px;
     width: 250px;
     text-align: center;
 }
@@ -250,6 +261,12 @@ header{
     font-weight: 300;
     color: var(--secondary);
     margin-bottom: 0.3em;
+}
+
+#sites{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('/Landing-Page-Concurso/assets/img/close-up-image-of-programer-working-at-his-desk-in-office.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .imagem-servico{
@@ -270,17 +287,28 @@ header{
 
 /* Equipe Section */
 #equipe{
-    background-color: var(--secondary);
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('/Landing-Page-Concurso/assets/img/programacao-background.jpg');
+    background-size: cover;
+    background-position: center;
     padding: 40px 0;
 }
 
 #equipe h1{
     text-align: center;
-    font-size: 28pt;
-    font-weight: bold;
+    font-size: 2em;
+    font-weight: 100;
     margin-bottom: 20px;
-    color: var(--primary);
+    color: var(--secondary);
 }
+
+#equipe h2{
+    color: var(--text-white);
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 300;
+    padding: 10px 50px;
+}
+
 
 #integrantes{
     display: flex;
@@ -310,13 +338,13 @@ header{
 }
 
 .card-sombra{
-    background-color: var(--text-white);
+    background-color: rgba(255,161,51,0.8);
     position: relative;
     width: 250px;
     height: 400px;
     border-radius: 25px;
     margin-top: 65px;
-
+    opacity: 0.8;
 }
 
 .perfil img{
@@ -376,11 +404,6 @@ header{
     display: flex;
     flex-direction: column;
     min-width: 50%;
-}
-
-#form-imagem{
-    width: 50%;
-    height: 40%;
 }
 
 .form-campo{
@@ -451,6 +474,24 @@ header{
     .open{
         display: block;
     }
+
+    /* Contato */
+        /* Contato */
+        #contato{
+            padding: 1em;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+    
+        #form-contato{
+            width: 90%;
+        }
+    
+        #form-contato h1{
+            text-align: center;
+        }
+
 }
 
 @media screen and (max-width: 450px) {
@@ -476,11 +517,8 @@ header{
         right: 0;
     }
 
-    .contentproje{
-        padding-left: 3em;
-    }
-
-    .contentproje p{
+    .contentproje h2{
+        color: var(--text-white);
         font-size: 1em;
         width: 70%;
         height: 10%;
@@ -502,26 +540,5 @@ header{
     }
 
     /* Equipe */
-
-
-    /* Contato */
-    #contato{
-        padding: 1em;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-    }
-
-    #form-imagem{
-        display: none;
-    }
-
-    #form-contato{
-        width: 80%;
-    }
-
-    #form-contato h1{
-        text-align: center;
-    }
 }
 
