@@ -149,7 +149,7 @@ header{
 }
 
 .slide-container:nth-child(1) .slide{
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('Landing-Page-Concurso/img/pexels-burak-the-weekender-45072.jpg');
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('d/assets/img/pexels-burak-the-weekender-45072.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -158,7 +158,7 @@ header{
 }
 
 .slide-container:nth-child(2) .slide{
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('Landing-Page-Concurso/img/close-up-image-of-programer-working-at-his-desk-in-office.jpg');
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('d/assets/img/close-up-image-of-programer-working-at-his-desk-in-office.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -167,7 +167,7 @@ header{
 }
 
 .slide-container:nth-child(3) .slide{
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('Landing-Page-Concurso/img/pexels-magnus-mueller-2818118.jpg');
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('d/assets/img/pexels-magnus-mueller-2818118.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -261,7 +261,7 @@ header{
 }
 
 #sites{
-    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('Landing-Page-Concurso/img/close-up-image-of-programer-working-at-his-desk-in-office.jpg');
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('d/assets/img/close-up-image-of-programer-working-at-his-desk-in-office.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -284,7 +284,7 @@ header{
 
 /* Equipe Section */
 #equipe{
-    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('Landing-Page-Concurso/img/programacao-background.jpg');
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('d/assets/img/programacao-background.jpg');
     background-size: cover;
     background-position: center;
     padding: 40px 0;
