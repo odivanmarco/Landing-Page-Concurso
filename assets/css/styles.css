@@ -383,7 +383,8 @@ header{
 #contato{
     background-color: var(--primary);
     padding-top: 50px;
-    height: 100vh;
+    min-height: 80vh;
+    padding-bottom: 60px;
 }
 
 #titulo-contato{
@@ -457,50 +458,68 @@ header{
     opacity: 0.6;
 }
 
-/* Footer */
-#footer{
+/*Footer*/
+footer{
     background-color: var(--primary);
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
-    padding-top: 30px;
-    border-width: 90%;
+    justify-content: center;
+    padding-top: 20px;
+    align-items: flex-start;
+    gap: 10%;
 }
 
-#footer h2{
-    font-size: 1.5em;
-    font-weight: 300;
-    color: var(--text-white);
-}
-
-.footer-item{
-    width: 300px;
-    padding: 1em 5em;
+#info-contatos{
     display: flex;
     flex-direction: column;
     justify-content: start;
-    align-items: center;
+    align-items: flex-start;
+    color: var(--text-white);
 }
 
-.footer-item ul{
+#info-contatos img{
+    width: 40px;
+    height: 40px;
+}
+
+.card-info-contatos{
     display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
 }
 
-.footer-item ul li{
+.cards-footer{
+    min-width: 250px;
+}
+
+
+footer h3{
+    color: var(--secondary);
+    font-weight: 300;
+    font-size: 1.5em;
+    padding-bottom: 25px;
+}
+
+#links-rapidos ul li{
     list-style-type: none;
-    padding-top: 1em;
+    color: white;
+    padding-bottom: 20px;
 }
 
-.footer-item ul li a{
+#links-rapidos ul li a{
     text-decoration: none;
+    color: white;
+}
+
+#links-rapidos ul li a:hover{
     color: var(--secondary);
 }
 
-#mapa-do-site{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+/*Footer end*/
 
 @media screen and (max-width: 720px) {
     #menu-navbar{
